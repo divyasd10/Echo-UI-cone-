@@ -199,3 +199,146 @@ li{
   color: #081158;
   font-family: "Montserrat", sans-serif;
 }
+.rounded-circles{
+  position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(251, 178, 68, 0.5);
+    border-radius: 50%;
+    z-index: -1;
+}
+.flaticon-link,.flaticon-trophy,.flaticon-contract,.flaticon-megaphone,.flaticon-sheild,.flaticon-rocket{
+  font-size: 50px;
+  font-weight: 400;
+  color: darkgray;
+}
+.section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  
+}
+.service{
+  padding: 30px;
+    border: 1px solid #efefef;
+    margin-bottom: 30px;
+}
+.icon{
+  flex: 0 0 80px;
+  font-size: 50px;
+  position: relative
+}
+
+
+.footer {
+  background: #fff;
+  padding: 50px 20px 20px;
+  color: #6c757d;
+  font-size: 14px; /* Reduced from default size */
+  padding: 40px 20px 20px;
+ 
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+ 
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+.footer-column p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.footer-column p,
+.footer-column ul li,
+.footer-column ul li a,
+.contact-info li {
+  font-size: 13px; /* Slightly smaller paragraph and list items */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #fff;
+  background-color: #001f5e;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact-info i {
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.heart {
+  color: red;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+    padding-top: 20px;
+  }
+
+  .social-icons a {
+    margin-bottom: 10px;
+  }
+}
